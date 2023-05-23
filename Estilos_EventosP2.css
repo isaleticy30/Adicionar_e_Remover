@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+main{
+    display: flix;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: #025;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.carteira{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid #888;
+    padding: 10px;
+    margin: 5px 0px;
+    cursor: pointer
+}
+.selecionado{
+    background-color: #098005 !important;
+    color: #000000 !important;
+    border-color:#06ce10 !important;
+}
+.v1{
+    background-color: #ccc;
+    color: #444
+}
+.v2{
+    background-color: #444;
+    color: #ccc
+}
+.caixa{
+    border: 4px solid #000;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 500px;
+    width: 300px;
+}
